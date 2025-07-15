@@ -1,4 +1,4 @@
-import bcrypt from "bcryptjs";
+import * as bcrypt from "bcryptjs";
 import uploadToCloudinary from "../middlewares/uploadToCloudinary.js";
 import logger from "../utils/logger.js";
 import User from "../models/userModel.js"

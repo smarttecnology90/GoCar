@@ -8,10 +8,10 @@ const apiKey = process.env.TWILIO_API_KEY;
 const apiSecret = process.env.TWILIO_API_SECRET;
 const verifySid = process.env.TWILIO_VERIFY_SERVICE_SID;
 
-console.log('TWILIO_ACCOUNT_SID:', process.env.TWILIO_ACCOUNT_SID);
-console.log('TWILIO_API_KEY:', process.env.TWILIO_API_KEY);
-console.log('TWILIO_API_SECRET:', process.env.TWILIO_API_SECRET);
-console.log('TWILIO_VERIFY_SERVICE_SID:', process.env.TWILIO_VERIFY_SERVICE_SID);
+// console.log('TWILIO_ACCOUNT_SID:', process.env.TWILIO_ACCOUNT_SID);
+// console.log('TWILIO_API_KEY:', process.env.TWILIO_API_KEY);
+// console.log('TWILIO_API_SECRET:', process.env.TWILIO_API_SECRET);
+// console.log('TWILIO_VERIFY_SERVICE_SID:', process.env.TWILIO_VERIFY_SERVICE_SID);
 
 
 const client = twilio(apiKey, apiSecret, { accountSid });

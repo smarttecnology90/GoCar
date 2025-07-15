@@ -1,4 +1,4 @@
-import bcrypt from "bcryptjs";
+import * as bcrypt from "bcryptjs";
 import User from "../models/userModel.js";
 import { sendOTP, verifyOTP } from "../services/otpMessage.js";
 
